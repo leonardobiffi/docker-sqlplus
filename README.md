@@ -2,7 +2,7 @@
 
 Connect to a running Oracle database like this
 
-`docker run --interactive guywithnose/sqlplus sqlplus {CONNECTION_STRING}`
+`docker run --interactive guywithnose/sqlplus sqlplus user/password@hostname:port/service_name`
 
 Or run your own Oracle XE database through docker and then connect to it.
 
